@@ -15,17 +15,13 @@ a{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .header-top{
     position: fixed;
 }
-.nav{
-    position: fixed;
-    padding-top: 1em;
-    font-size: 20px;
-    
-}
-.menu-list{
+.menu-items{
     display: flex;
+    justify-content: space-between;
 }
 .image{
     background:url(img/01-11-2048x1365.jpg) ;
