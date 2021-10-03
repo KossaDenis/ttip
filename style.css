@@ -105,6 +105,8 @@ a{
     display: flex;
     border: solid;
     padding: 10px;
+    max-width: 500px;
+    
     
 }
 
