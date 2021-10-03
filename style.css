@@ -10,6 +10,7 @@ a{
     color: #fff;
 }
 .header{
+    background-color: rgb(147 147 147 / 58%);
     position: fixed;
     top: 0;
     right: 0;
@@ -26,6 +27,13 @@ a{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-link li:hover{
+    text-decoration: underline;
+}
+.menu-btn a:hover{
+    text-decoration: underline;
 }
 .menu{
     display: flex;
@@ -62,4 +70,46 @@ a{
     font-size: 40px;
     padding-bottom: 18%;
     
+}
+
+.second-page_content{
+    padding-top: 83px;
+}
+.second-page_box {
+    display: flex;
+    padding-bottom: 5em;
+}
+.second-page_text {
+    padding-left: 100px;
+    line-height: 24px;
+    
+}
+.second-page_text2{
+    padding-right: 100px;
+    line-height: 24px;
+    max-width: 606px;
+} 
+.second-page_title {
+    font-weight: 700;
+}
+.second-page_img {
+    max-width: 500px;
+}
+.third-page {
+    background-color: #e7ebf2;
+}
+.third-page_boxes {
+    padding: 20px 0 20px;
+}
+.third-page_box {
+    display: flex;
+    border: solid;
+    padding: 10px;
+    
+}
+
+.third-img {
+    width: 90px;
+    margin: 0 auto;
+    margin-right: 1em;
 }
