@@ -4,13 +4,14 @@
 body{
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
+    width: 100%;
 }
 a{
     text-decoration: none;
     color: #fff;
 }
 .header{
-    background-color: rgb(147 147 147 / 58%);
+    background-color: rgb(147 147 147 / 86%);
     position: fixed;
     top: 0;
     right: 0;
@@ -26,10 +27,10 @@ a{
 .nav{
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
+    padding: 20px 20px 20px 20px;
 }
-.nav-link li:hover{
+.nav-link a:hover{
     text-decoration: underline;
 }
 .menu-btn a:hover{
@@ -100,18 +101,112 @@ a{
 }
 .third-page_boxes {
     padding: 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .third-page_box {
-    display: flex;
+    
+    padding: 20px;
     border: solid;
-    padding: 10px;
-    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    flex-wrap: wrap;
+    background: #47C293;
+    border-radius: 13px;
+    border: none;
+}
+.third-page_box2 {
+    padding: 20px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    flex-wrap: wrap;
+    background: #FFBD98;
+    border-radius: 13px;
+    border: none;
+}
+.third-text{
+    max-width: 330px;
+}
+.third-img {
+    max-width: 149px;
+    margin: 0 auto;
+    
+}
+
+.third-title{
+    padding-right: 7em;
+    padding-bottom: 2em;
+    font-size: 22px;
+}
+.third-p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-top: 4em;
+}
+.third-text2{
+    max-width: 330px;
+}
+.third-img2{
+    max-width: 140px;
     
     
 }
 
-.third-img {
-    width: 90px;
-    margin: 0 auto;
-    margin-right: 1em;
+.third-title2{
+    padding-right: 7em;
+    padding-bottom: 2em;
+    font-size: 22px;
 }
+.third-p2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-top: 4em;
+}
+.third-page_box3 {
+    margin-top: 2em;
+    padding: 20px;
+    border: solid;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    flex-wrap: wrap;
+    background: #95EFD6;
+    border-radius: 13px;
+    border: none;
+}
+.third-text3{
+    max-width: 330px;
+}
+.third-img3{
+    max-width: 150px;
+    
+    
+}
+
+.third-title3{
+    padding-right: 7em;
+    padding-bottom: 2em;
+    font-size: 22px;
+}
+.third-p3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-top: 4em;
+}
+.contacts{
+    padding: 60px 0 60px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+}
+.contact1{
+    padding-bottom: 2em;
+}
+.email{
+    padding-bottom: 2em;
+}
+
