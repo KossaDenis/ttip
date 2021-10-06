@@ -83,12 +83,13 @@ a{
 .second-page_text {
     padding-left: 100px;
     line-height: 24px;
-    
+    padding-right: 2em;
 }
 .second-page_text2{
     padding-right: 100px;
     line-height: 24px;
     max-width: 606px;
+    padding-left: 2em;
 } 
 .second-page_title {
     font-weight: 700;
@@ -106,7 +107,6 @@ a{
     justify-content: space-around;
 }
 .third-page_box {
-    
     padding: 20px;
     border: solid;
     display: flex;
@@ -208,5 +208,105 @@ a{
 }
 .email{
     padding-bottom: 2em;
+}
+@media(max-width:1029px){
+    .third-page_box{
+        margin-bottom: 2em;
+    }
+}
+@media(max-width:930px){
+    .second-page_box{
+        flex-wrap: wrap;
+        
+    }
+    #second-page_box2{
+        flex-direction: column-reverse;
+    }
+    .second-page_text2{
+        padding-left: 100px;
+        max-width: 60em;
+    }
+    .second-page_img{
+        margin-left: 8em;
+        padding-bottom: 1em;
+    }
+    .second-page_text{
+        padding-right: 100px;
+    }
+}
+@media(max-width:814px){
+    .image{
+        width: 46em;
+    }
+    .section2{
+        width: 46em;
+    }
+    .section3{
+        width: 46em;
+    }
+    .section4{
+        width: 46em;
+    }
+}
+@media(max-width:768px){
+    .image{
+        height: 108vh;
+    }
+}
+@media(max-width:706px){
+    .image{
+        background-attachment:local;
+    }
+}
+@media(max-width:599px){
+    .nav-link{
+        background: rgb(168, 168, 168);
+        display: none;
+        position: absolute;
+        top: 59px;
+        width: 100%;
+        text-align: center;
+        left: 0;
+    }
+    .nav-link a{
+        display: block;
+        padding: 10px 0;
+    }
+    .menu-burger{
+        margin-left: 22em;
+        width: 30px;
+        height: 20px;
+        position: relative;
+    }
+    .menu-burger span{
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        top: 9px;
+        position: absolute;
+    }
+    .menu-burger::after,
+    .menu-burger::before{
+        content: "";
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        position: absolute;
+    }
+    .menu-burger::after{
+        top: 0;
+    }
+    .menu-burger::before{
+        bottom: 0;
+    }
+}
+
+
+
+
+@media(min-width:599px){
+    .nav-link{
+        display: flex !important;
+    }
 }
 
